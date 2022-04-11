@@ -14,6 +14,6 @@ public class DockerController {
 
     @RequestMapping("/")
     public String index() {
-        return "Hello Docker111!";
+        return "Hello Docker!";
     }
 }
